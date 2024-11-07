@@ -27,14 +27,14 @@ public class Main {
             default:
                 System.out.println("Светофор сломался");
         }
-//        Задача 1
+//        (Задача 1)
         int clientOS = 1;
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         } else {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
-//           Задача 2
+//           (Задача 2)
         int clientDeviceYear = 2017;
         if (clientOS == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
@@ -45,7 +45,7 @@ public class Main {
         } else if (clientOS == 1 && clientDeviceYear >= 2015) {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
-//        Задача 3
+//        (Задача 3)
         int year = 2021;
         if (year % 400 == 0 && year % 100 != 0 || year % 4 == 0 && year >= 1584) {
             System.out.println(year + " год является високосным");
@@ -54,7 +54,7 @@ public class Main {
         } else {
             System.out.println(year + " год не является високосным");
         }
-//        Задача 4
+//        (Задача 4)
         int deliveryDistance = 95;
         if (deliveryDistance <= 20) {
             System.out.println("Потребуется дней 1");
@@ -65,7 +65,7 @@ public class Main {
         } else {
             System.out.println("Доставки нет");
         }
-//        Задача 5
+//        (Задача 5)
         int monthNumber = 10;
         switch (monthNumber) {
             case 1:
